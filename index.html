@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar navbar-expand-lg bg-black" >
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="#">ETEC Shop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item " href="#t-shirt">T-shirt</a></li>
+            <li><a class="dropdown-item " href="#clothes">Clothes</a></li>
+            <li><a class="dropdown-item" href="#skit">Skit</a></li>
+          </ul>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link text-white" href="#">Contact us</a>
+        </li>
+    
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+    </nav>
+    <!-- main -->
+     <main>
+        <!-- HomeAnimation -->
+         <div class="container-fluid">
+            <div class="row bg-black p-5">
+                <!-- text -->
+               <div class="col-lg-8 col-md-6 col-sm-6 col-12  pe-lg-5" style="line-height: 28px">
+            
+                <h3 class="mt-4 text-primary" id="aniText"></h3>
+                <script src="/js/HomeAnimation.js"></script>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, veritatis quod quis necessitatibus numquam error optio qui, doloribus aliquam deserunt pariatur illum a saepe ipsum, laborum nihil voluptates aspernatur in.</p>
+                  <a href="" class="btn btn-primary">Shop Now</a>
+               </div>
+               <!-- image -->
+               <div class="col-lg-4 col-md-6 col-sm-6 col-12  ">
+                <img class="img-fluid rounded-circle w-75 h-75"
+                src="https://i.pinimg.com/736x/a3/1b/43/a31b43f35b48a7f69fd19b983e60b1de.jpg" alt="">
+               </div>
+            </div>
+         </div>
+         <!-- T-shirt -->
+          <div class="container" id="t-shirt">
+            <h2 class="text-primary">T-Shirt</h2>
+            <div class="row " id="result">
+              <!-- Fetch Data from json -->
+                <script src="/js/FetchJson.js"></script> 
+            </div>
+          </div>
+
+
+         <!-- clothes -->
+          <div class="container" id="clothes">
+            <h2 class="text-primary">Clothes</h2>
+            <div class="row" id="getClothes">
+
+            </div>
+
+          </div>
+
+
+     
+
+     </main>
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+    "Products":[
+       
+        {
+            "id":1,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg",
+            "link":"test.html"
+
+
+        },
+           {
+            "id":2,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        },
+           {
+            "id":3,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        },
+           {
+            "id":4,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        },
+        {
+            "id":1,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        },
+           {
+            "id":2,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        },
+           {
+            "id":3,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        },
+           {
+            "id":4,
+            "Price":100,
+            "title":"Smos1",
+            "image":"/Image/smos1.jpg"
+
+
+        }
+
+    ],
+    "Clothes":[
+        {
+            "id"  :1,
+            "name":"white Clothes",
+            "price":10,
+            "title":"please buy me",
+            "image":"https://i.pinimg.com/1200x/b0/e0/53/b0e05325bf5264645664f970edc5ecb6.jpg"
+        }
+    ]
+ 
+
+
+  
+
+}
